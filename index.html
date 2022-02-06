@@ -12,6 +12,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -88,6 +94,39 @@
     </section>
     <!-- /Categories -->
 
+    <!-- Book Card -->
+    <section class="section recently-added container">
+      <h2 class="text-center text--secondary">Recently Added Books</h2>
+      <div class="books main-carousel">
+        <div class="book carousel-cell">
+          <a href="#">
+            <img class="book-img" src="alchemist_updated.jpg" alt="" />
+          </a>
+          <div class="book-info">
+            <h2 class="book-title text--primary text-center">
+              <a href="#" class="text--primary book-link"> The Alchemist </a>
+            </h2>
+            <div class="add-to-cart">
+              <a href="#" class="btn btn--primary add-to-cart">Add To Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="book carousel-cell">
+          <a href="#">
+            <img class="book-img" src="alchemist_updated.jpg" alt="" />
+          </a>
+          <div class="book-info">
+            <h2 class="book-title text--primary text-center">
+              <a href="#" class="text--primary book-link"> The Alchemist </a>
+            </h2>
+            <div class="add-to-cart">
+              <a href="#" class="btn btn--primary add-to-cart">Add To Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Search Form -->
     <div class="search-modal">
       <div class="search-container container">
@@ -111,6 +150,7 @@
         </form>
       </div>
     </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>

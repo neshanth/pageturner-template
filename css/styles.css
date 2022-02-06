@@ -10,6 +10,7 @@
   --font-family: "Lato", sans-serif;
   --white: #fff;
   --gray: #f1eeff;
+  --success: #006400;
 }
 
 /* Globals */
@@ -51,6 +52,9 @@ body {
 }
 .text--white {
   color: var(--white);
+}
+.text--success {
+  color: var(--success);
 }
 
 ul {
@@ -194,4 +198,49 @@ a {
   align-items: center;
   max-width: 50rem;
   margin: 0 auto;
+}
+/* /Category */
+
+/* Book card */
+.book-img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+/* .books {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* .book {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 1em 0;
+} */
+.book-price {
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.book-category {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+  text-decoration-thickness: 5px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.book-title,
+.book-price,
+.book-description {
+  margin: 0.5em 0;
+}
+.add-to-cart {
+  display: flex;
+  justify-content: center;
+}
+.book-link:hover {
+  color: var(--secondary-color);
 }

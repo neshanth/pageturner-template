@@ -19,3 +19,10 @@ let closeIcon = document.querySelector(".close-icon");
 closeIcon.addEventListener("click", () => {
   document.querySelector(".search-modal").style.height = "0vh";
 });
+
+var elem = document.querySelector(".main-carousel");
+var flkty = new Flickity(elem, {
+  // options
+  cellAlign: "left",
+  contain: true,
+});

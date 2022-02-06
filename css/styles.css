@@ -223,14 +223,6 @@ a {
   font-size: 1.3rem;
   font-weight: 700;
 }
-.book-category {
-  font-size: 0.8rem;
-  text-decoration: underline;
-  text-decoration-color: var(--secondary-color);
-  text-decoration-thickness: 5px;
-  text-transform: uppercase;
-  color: var(--primary-color);
-}
 
 .book-title,
 .book-price,
